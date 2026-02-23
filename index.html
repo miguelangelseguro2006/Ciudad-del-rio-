@@ -113,7 +113,7 @@ padding-bottom:2rem;
 .slider::-webkit-scrollbar-thumb{background:#B8A58C;border-radius:10px;}
 
 .slide{
-flex:0 0 70%;
+flex:0 0 20%;
 scroll-snap-align:center;
 border-radius:1.5rem;
 overflow:hidden;
@@ -122,7 +122,7 @@ cursor:pointer;
 }
 
 @media(min-width:768px){
-.slide{flex:0 0 40%;}
+.slide{flex:0 0 30%;}
 }
 
 .slide img{
@@ -233,29 +233,126 @@ class="w-[200px] md:w-[240px] mx-auto -translate-y-4 rounded-[28px] shadow-[0_40
 
 <!-- APARTAMENTO -->
 <section class="bg-marble py-32 px-6">
-<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center">
-<div class="fade-up">
-<h2 class="serif text-6xl mb-8 text-wood">El Apartamento</h2>
-<p class="text-lg text-stone-600 leading-relaxed mb-12">
-80 m² diseñados para una vida urbana funcional y elegante. Piso 21 con vista abierta a Medellín, balcón privado y distribución inteligente de tres habitaciones.
-</p>
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center">
 
-<div class="grid grid-cols-2 gap-8 border-t border-stone-300 pt-10">
-<div><p class="serif text-3xl">80 m²</p><p class="text-xs tracking-widest uppercase text-stone-400">Área</p></div>
-<div><p class="serif text-3xl">3</p><p class="text-xs tracking-widest uppercase text-stone-400">Habitaciones</p></div>
-<div><p class="serif text-3xl">2</p><p class="text-xs tracking-widest uppercase text-stone-400">Baños</p></div>
-<div><p class="serif text-3xl">1</p><p class="text-xs tracking-widest uppercase text-stone-400">Parqueadero</p></div>
-</div>
-</div>
+    <div class="fade-up">
+      <h2 class="serif text-6xl mb-8 text-wood">El Apartamento</h2>
 
-<div class="fade-up">
-<img src="imagen-5.png" class="rounded-3xl shadow-2xl">
-</div>
-</div>
+      <p class="text-lg text-stone-600 leading-relaxed mb-12">
+        Ubicado en el piso 21, este moderno apartamento de 85 m² combina
+        amplitud, funcionalidad y excelente iluminación natural. Cuenta con
+        balcón privado con vista parcial a la ciudad, tres habitaciones ideales
+        para familia, huéspedes o espacios multifuncionales, dos baños modernos
+        y un acogedor studio perfecto como home office o sala de televisión.
+        <br><br>
+        La cocina abierta con amplia isla se convierte en el corazón del hogar,
+        integrando los espacios sociales y creando un ambiente contemporáneo,
+        ideal para compartir y disfrutar reuniones. Incluye un parqueadero
+        sencillo y acceso a completas zonas comunes diseñadas para el bienestar,
+        la relajación y el entretenimiento.
+      </p>
+
+      <div class="grid grid-cols-2 gap-8 border-t border-stone-300 pt-10">
+        <div>
+          <p class="serif text-3xl">85 m²</p>
+          <p class="text-xs tracking-widest uppercase text-stone-400">Área</p>
+        </div>
+        <div>
+          <p class="serif text-3xl">3</p>
+          <p class="text-xs tracking-widest uppercase text-stone-400">Habitaciones</p>
+        </div>
+        <div>
+          <p class="serif text-3xl">2</p>
+          <p class="text-xs tracking-widest uppercase text-stone-400">Baños</p>
+        </div>
+        <div>
+          <p class="serif text-3xl">1</p>
+          <p class="text-xs tracking-widest uppercase text-stone-400">Parqueadero</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-up">
+      <img src="imagen-5.png" class="rounded-3xl shadow-2xl">
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-beige py-32 px-6">
+  <div class="max-w-5xl mx-auto fade-up text-center">
+
+    <p class="uppercase tracking-[.4em] text-xs text-sand mb-6">
+      Unidad residencial
+    </p>
+
+    <h2 class="serif text-6xl text-wood mb-12">
+      Zonas comunes
+    </h2>
+
+    <p class="text-lg text-stone-600 leading-relaxed max-w-3xl mx-auto mb-20">
+      Espacios diseñados para elevar la calidad de vida, donde el bienestar,
+      la relajación y el entretenimiento se integran en un entorno seguro,
+      moderno y cuidadosamente planeado.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-12 text-left text-stone-600 max-w-4xl mx-auto">
+
+      <div class="space-y-3">
+        <p class="serif text-xl text-wood">Seguridad 24 horas</p>
+        <p>
+          Portería y vigilancia permanente que garantizan tranquilidad,
+          control de acceso y respaldo en todo momento.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <p class="serif text-xl text-wood">Piscina y jacuzzi</p>
+        <p>
+          Zonas húmedas ideales para relajarse, desconectarse del ritmo
+          urbano y disfrutar momentos de descanso.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <p class="serif text-xl text-wood">Sauna y turco</p>
+        <p>
+          Espacios pensados para el bienestar físico y mental, perfectos
+          para liberar tensiones y recargar energía.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <p class="serif text-xl text-wood">Gimnasio</p>
+        <p>
+          Área equipada para entrenar sin salir de casa, manteniendo una
+          rutina saludable y activa.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <p class="serif text-xl text-wood">Salón social</p>
+        <p>
+          Un espacio elegante para reuniones, celebraciones y encuentros
+          especiales en un ambiente cómodo y funcional.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <p class="serif text-xl text-wood">Zona de juegos infantiles</p>
+        <p>
+          Área segura y pensada para que los niños disfruten, jueguen y
+          compartan en un entorno controlado.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
 </section>
 
 <!-- GALERÍA -->
-<section class="bg-beige py-32 px-6">
+<section class="bg-white py-32 px-6">
 <div class="max-w-7xl mx-auto mb-12 fade-up">
 <h2 class="serif text-6xl text-wood">Galería</h2>
 <p class="text-sand mt-4 italic">Desliza para explorar →</p>
@@ -292,7 +389,7 @@ width="100%" height="100%" style="border:0;filter:grayscale(1) contrast(1.1);" l
 </div>
 </section>
 
-  <!-- ENTORNO Y ESTILO DE VIDA -->
+<!-- ENTORNO Y ESTILO DE VIDA -->
 <section class="bg-beige py-32 px-6">
   <div class="max-w-4xl mx-auto fade-up text-center">
 
@@ -305,10 +402,10 @@ width="100%" height="100%" style="border:0;filter:grayscale(1) contrast(1.1);" l
     </h2>
 
     <p class="text-lg text-stone-600 leading-relaxed mb-16">
-      Un sector contemporáneo de Medellín donde la arquitectura moderna,
-      la cultura urbana y el bienestar se integran de forma natural.
-      Un entorno pensado para quienes valoran el diseño, la ubicación
-      estratégica y una vida caminable.
+      Uno de los sectores más modernos y valorizados de Medellín, donde la
+      arquitectura contemporánea, la vida urbana y el bienestar se integran
+      de forma natural. Un entorno pensado para quienes buscan diseño,
+      ubicación estratégica y una experiencia de vida caminable.
     </p>
 
     <div class="grid md:grid-cols-2 gap-12 text-left max-w-3xl mx-auto text-stone-600">
@@ -316,32 +413,41 @@ width="100%" height="100%" style="border:0;filter:grayscale(1) contrast(1.1);" l
       <div class="space-y-4">
         <p class="serif text-xl text-wood">Zonas verdes y bienestar</p>
         <p>
-          Espacios abiertos ideales para caminar, ejercitarse y disfrutar
-          de un entorno tranquilo en medio de la ciudad.
+          Amplios espacios abiertos ideales para caminar, ejercitarse y
+          desconectarse del ritmo de la ciudad. El sector cuenta con zonas
+          verdes integradas al entorno urbano y una oferta cercana de
+          gimnasios, estudios de pilates y yoga que promueven un estilo de
+          vida activo y equilibrado.
         </p>
       </div>
 
       <div class="space-y-4">
         <p class="serif text-xl text-wood">Gastronomía y vida social</p>
         <p>
-          Restaurantes, cafés y puntos gastronómicos reconocidos a pocos pasos,
-          ideales para un estilo de vida urbano y activo.
+          Rodeado de restaurantes y cafés reconocidos como Starbucks,
+          Pergamino, Ganso & Castor, Crepes & Waffles, Sushi Light y
+          Parmessano. Un entorno ideal para disfrutar encuentros sociales,
+          experiencias gastronómicas y una vida urbana dinámica.
         </p>
       </div>
 
       <div class="space-y-4">
         <p class="serif text-xl text-wood">Arte y cultura</p>
         <p>
-          Un sector con identidad cultural, espacios artísticos y una atmósfera
-          creativa que eleva la experiencia de vivir la zona.
+          Un sector con fuerte identidad cultural y creativa, rodeado de
+          espacios artísticos que enriquecen el día a día. El Museo de Arte
+          Moderno de Medellín se encuentra a pocos pasos, aportando carácter,
+          prestigio y valor cultural al entorno.
         </p>
       </div>
 
       <div class="space-y-4">
         <p class="serif text-xl text-wood">Servicios y conectividad</p>
         <p>
-          Cercanía a clínicas, supermercados y vías principales que permiten
-          una conexión rápida con los puntos más importantes de la ciudad.
+          Excelente ubicación con cercanía inmediata a clínicas, servicios
+          de urgencias 24 horas frente a la unidad, supermercados y vías
+          principales. Una conectividad que permite un acceso ágil a los
+          puntos más importantes de la ciudad.
         </p>
       </div>
 
